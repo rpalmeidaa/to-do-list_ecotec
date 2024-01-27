@@ -119,11 +119,10 @@ ul li span {
   position: absolute;
   right: 0;
   top: 5px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   font-size: 22px;
   color: #555;
-  line-height: 40px;
   text-align: center;
   border-radius: 50%;
   font-weight: 300;
@@ -137,8 +136,8 @@ ul li span:hover {
   display: flex;
   position: relative;
   float: right;
-  right: 30px;
-  bottom: 40px;
+  right: 20px;
+  bottom: 45px;
   font-size: 12px;
   color: #1a2f63;
 }
