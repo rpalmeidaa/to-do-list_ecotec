@@ -9,10 +9,11 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-image: url(/images/fundo-login_old.png);
+  background-image: url(/assets/bgimg3.png);
   padding: 10px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   height: 100vh;
 }
@@ -24,11 +25,10 @@
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 10px;
-  box-shadow: 3px 3px 3px gray;
 }
 
 .to-do-app h2 {
-  color: #2356B4;
+  color: #2356b4;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -77,10 +77,9 @@ button {
   border-radius: 40px;
 }
 
-#btn-hover:hover{
-    background: #3ccaaf;
-    opacity: 0.7;
-    
+#btn-hover:hover {
+  background: #3ccaaf;
+  opacity: 0.7;
 }
 
 ul li {
@@ -92,7 +91,6 @@ ul li {
   user-select: none;
   cursor: pointer;
   color: #2356b4;
- 
 }
 
 ul li::before {
@@ -101,22 +99,20 @@ ul li::before {
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background-image: url(/images/unchecked.png);
+  background-image: url(/assets/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 8px;
   left: 8px;
-  
 }
 
 ul li.checked {
   color: #555;
   text-decoration: line-through;
-  
 }
 
 ul li.checked::before {
-  background-image: url(/images/checked.png);
+  background-image: url(/assets/checked.png);
 }
 
 ul li span {
@@ -131,8 +127,6 @@ ul li span {
   text-align: center;
   border-radius: 50%;
   font-weight: 300;
-
-  
 }
 
 ul li span:hover {

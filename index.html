@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="pt-BR">
+  <header>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,11 +15,11 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>To-Do List App</title>
-  </head>
+  </header>
   <body>
     <div class="container">
       <div class="to-do-app">
-        <h2>To-Do List <img src="/images/Simbolo_R_100.png" alt="icon" /></h2>
+        <h2>To-Do List <img src="/assets/Simbolo_R_100.png" alt="icon" /></h2>
         <div class="row">
           <input
             type="text"
@@ -27,11 +27,11 @@
             id="input-box"
             placeholder="Adicionar Tarefa"
           />
-          <button id="btn-hover" onclick="addTask()" >Adicionar</button>
+          <button id="btn-hover" onclick="addTask()">Adicionar</button>
         </div>
         <ul id="list-container"></ul>
       </div>
     </div>
-    <script src="/scrypt.js"></script>
+    <script src="scrypt.js"></script>
   </body>
 </html>
