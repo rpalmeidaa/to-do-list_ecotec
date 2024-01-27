@@ -4,8 +4,8 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  overflow-y: hidden;
 }
-
 .container {
   width: 100%;
   min-height: 100vh;
@@ -133,6 +133,15 @@ ul li span:hover {
   background: #edeef0;
 }
 
+.footer-vertion {
+  display: flex;
+  position: relative;
+  float: right;
+  right: 30px;
+  bottom: 40px;
+  font-size: 12px;
+  color: #1a2f63;
+}
 /* Primary Dark #1A2F63
 Primary #2356B4 
 Primary Light #42B7E9
