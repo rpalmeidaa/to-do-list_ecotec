@@ -9,7 +9,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background-image: url(/assets/bgimg3.png);
+  background-image: url(assets/bgimg3.png);
   padding: 10px;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -99,7 +99,7 @@ ul li::before {
   height: 22px;
   width: 22px;
   border-radius: 50%;
-  background-image: url(/assets/unchecked.png);
+  background-image: url(assets/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 8px;
@@ -112,7 +112,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-  background-image: url(/assets/checked.png);
+  background-image: url(assets/checked.png);
 }
 
 ul li span {
